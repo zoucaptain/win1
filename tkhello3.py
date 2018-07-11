@@ -9,7 +9,7 @@ top = Tkinter.Tk()
 label = Tkinter.Label(top, text='hello world')
 label.pack()
 
-quit = Tkinter.Button(top, text='quit', command=top.quit)
+quit = Tkinter.Button(top, text='quit', command=top.quit,bg='red',fg='white')
 quit.pack(fill=Tkinter.X, expand=1)
 
 Tkinter.mainloop()
