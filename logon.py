@@ -136,4 +136,5 @@ def main():
             sys.exit(0)  # user chose to cancel，退出程序
 
 
-main()
+if __name__ == '__main__':
+    main()
